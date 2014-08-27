@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Aug 24 17:18:13 2014
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "oLed<5>" LOCATE = SITE "D11" LEVEL 1;
+COMP "oLed<6>" LOCATE = SITE "E9" LEVEL 1;
+COMP "oLed<7>" LOCATE = SITE "F9" LEVEL 1;
+COMP "Clock" LOCATE = SITE "C9" LEVEL 1;
+COMP "Reset" LOCATE = SITE "N17" LEVEL 1;
+COMP "Clock_BUFGP/BUFG" LOCATE = SITE "BUFGMUX_X1Y11" LEVEL 1;
+NET "Clock_BUFGP/IBUFG" BEL "Clock_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+COMP "oLed<0>" LOCATE = SITE "F12" LEVEL 1;
+COMP "oLed<1>" LOCATE = SITE "E12" LEVEL 1;
+COMP "oLed<2>" LOCATE = SITE "E11" LEVEL 1;
+COMP "oLed<3>" LOCATE = SITE "F11" LEVEL 1;
+COMP "oLed<4>" LOCATE = SITE "C11" LEVEL 1;
+SCHEMATIC END;
+

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/TestBench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="TestBench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="17" />
+   <wave_markers>
+      <marker time="900000000" label="" />
+      <marker time="897500000" label="" />
+      <marker time="895000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/TestBench/oLed" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oLed[7:0]</obj_property>
+      <obj_property name="ObjectShortName">oLed[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/Clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/Reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/Clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">Clock</obj_property>
+      <obj_property name="ObjectShortName">Clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/iWriteEnable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iWriteEnable</obj_property>
+      <obj_property name="ObjectShortName">iWriteEnable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/iReadAddress0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iReadAddress0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadAddress0[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/iReadAddress1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iReadAddress1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iReadAddress1[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/iWriteAddress" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iWriteAddress[7:0]</obj_property>
+      <obj_property name="ObjectShortName">iWriteAddress[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/iDataIn" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">iDataIn[15:0]</obj_property>
+      <obj_property name="ObjectShortName">iDataIn[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/oDataOut0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oDataOut0[15:0]</obj_property>
+      <obj_property name="ObjectShortName">oDataOut0[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/oDataOut1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oDataOut1[15:0]</obj_property>
+      <obj_property name="ObjectShortName">oDataOut1[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/Ram" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">Ram[8:0,15:0]</obj_property>
+      <obj_property name="ObjectShortName">Ram[8:0,15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/DATA_WIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">DATA_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/ADDR_WIDTH" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_WIDTH[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/DataRam/MEM_SIZE" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_SIZE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_SIZE[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/InstructionRom/iAddress" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">iAddress[15:0]</obj_property>
+      <obj_property name="ObjectShortName">iAddress[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">iAddress[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/TestBench/uut/InstructionRom/oInstruction" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oInstruction[27:0]</obj_property>
+      <obj_property name="ObjectShortName">oInstruction[27:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+</wave_config>

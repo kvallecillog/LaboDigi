@@ -1,0 +1,33 @@
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/TestBench_isim_beh.exe" -prj "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/TestBench_beh.prj" "work.TestBench" "work.glbl" 
+ISim P.20131013 (signature 0xfbc00daa)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/RAM.v" into library work
+Analyzing Verilog file "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/Module_ROM.v" into library work
+Analyzing Verilog file "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/Collaterals.v" into library work
+Analyzing Verilog file "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.v" into library work
+Analyzing Verilog file "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/TestBench.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:189 - "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.v" Line 46: Size mismatch in connection of port <Initial>. Formal port size is 16-bit while actual signal size is 32-bit.
+WARNING:HDLCompiler:189 - "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.v" Line 57: Size mismatch in connection of port <D>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.v" Line 58: Size mismatch in connection of port <Q>. Formal port size is 8-bit while actual signal size is 4-bit.
+WARNING:HDLCompiler:189 - "/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.v" Line 95: Size mismatch in connection of port <D>. Formal port size is 8-bit while actual signal size is 16-bit.
+Completed static elaboration
+Fuse Memory Usage: 95088 KB
+Fuse CPU Usage: 1320 ms
+Compiling module ROM
+Compiling module RAM_DUAL_READ_PORT
+Compiling module UPCOUNTER_POSEDGE
+Compiling module FFD_POSEDGE_SYNCRONOUS_RESET
+Compiling module MiniAlu
+Compiling module TestBench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 7 Verilog Units
+Built simulation executable /home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/TestBench_isim_beh.exe
+Fuse Memory Usage: 654980 KB
+Fuse CPU Usage: 1330 ms
+GCC CPU Usage: 140 ms

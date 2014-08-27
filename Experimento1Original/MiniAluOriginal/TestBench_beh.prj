@@ -1,0 +1,6 @@
+verilog work "RAM.v"
+verilog work "Module_ROM.v"
+verilog work "Collaterals.v"
+verilog work "MiniAlu.v"
+verilog work "TestBench.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
