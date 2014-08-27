@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/mora260/U/LaboDigitales/INITIAL/Prueba/impact.xsl
+OUTFILE=/home/mora260/U/LaboDigitales/INITIAL/Prueba/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/mora260/U/LaboDigitales/INITIAL/Prueba
+LICENSE=iMPACT
+USER_INFO=iMPACT

@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.ncd
-OUTFILE=/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.bit
+INFILE=/home/mora260/Repos/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.ncd
+OUTFILE=/home/mora260/Repos/LaboDigi/Experimento1Original/MiniAluOriginal/MiniAlu.bit
 FAMILY=Spartan3E
 PART=xc3s500e-4fg320
-WORKINGDIR=/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal
+WORKINGDIR=/home/mora260/Repos/LaboDigi/Experimento1Original/MiniAluOriginal
 LICENSE=WebPack
-USER_INFO=210926040_0_0_763
+USER_INFO=210926038_0_0_468

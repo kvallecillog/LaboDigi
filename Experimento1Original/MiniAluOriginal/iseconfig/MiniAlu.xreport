@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2014-08-27T08:17:27</DateModified>
+  <DateModified>2014-08-27T10:16:36</DateModified>
   <ModuleName>MiniAlu</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/iseconfig/MiniAlu.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/kenneth/LaboDigi/Experimento1Original/MiniAluOriginal/</ImplementationReportsDirectory>
+  <SavedFilePath>/home/mora260/Repos/LaboDigi/Experimento1Original/MiniAluOriginal/iseconfig/MiniAlu.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/mora260/Repos/LaboDigi/Experimento1Original/MiniAluOriginal/</ImplementationReportsDirectory>
   <DateInitialized>2014-08-24T17:52:16</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

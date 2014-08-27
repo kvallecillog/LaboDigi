@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/mora260/Repos/LaboDigi/CodigoInicialExperimento2/ConteoInicialComponentes/impact.xsl
+OUTFILE=/home/mora260/Repos/LaboDigi/CodigoInicialExperimento2/ConteoInicialComponentes/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/mora260/Repos/LaboDigi/CodigoInicialExperimento2/ConteoInicialComponentes
+LICENSE=iMPACT
+USER_INFO=iMPACT

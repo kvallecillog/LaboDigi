@@ -1,13 +1,13 @@
 Release 14.7 par P.20131013 (lin64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-kenneth-Satellite-P845::  Sun Aug 24 17:18:17 2014
+mora260-X202E::  Wed Aug 27 10:12:46 2014
 
 par -w -intstyle ise -ol high -t 1 MiniAlu_map.ncd MiniAlu.ncd MiniAlu.pcf 
 
 
 Constraints file: MiniAlu.pcf.
-Loading device for application Rf_Device from file '3s500e.nph' in environment /opt/Xilinx/14.7/ISE_DS/ISE/.
+Loading device for application Rf_Device from file '3s500e.nph' in environment /usr/Xilinx/14.7/ISE_DS/ISE/.
    "MiniAlu" is an NCD, version 3.2, device xc3s500e, package fg320, speed -4
 
 Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
@@ -54,13 +54,13 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 1 secs 
-Finished initial Timing Analysis.  REAL time: 1 secs 
+Starting initial Timing Analysis.  REAL time: 2 secs 
+Finished initial Timing Analysis.  REAL time: 2 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 1 secs 
-Total CPU  time at the beginning of Placer: 1 secs 
+Total REAL time at the beginning of Placer: 2 secs 
+Total CPU  time at the beginning of Placer: 2 secs 
 
 Phase 1.1  Initial Placement Analysis
 Phase 1.1  Initial Placement Analysis (Checksum:17858451) REAL time: 2 secs 
@@ -86,19 +86,19 @@ Phase 7.8  Global Placement
 .....
 ....
 ....
-Phase 7.8  Global Placement (Checksum:947ebb) REAL time: 5 secs 
+Phase 7.8  Global Placement (Checksum:947ebb) REAL time: 6 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:947ebb) REAL time: 5 secs 
+Phase 8.5  Local Placement Optimization (Checksum:947ebb) REAL time: 6 secs 
 
 Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:cee70c50) REAL time: 6 secs 
+Phase 9.18  Placement Optimization (Checksum:cee70c50) REAL time: 7 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:cee70c50) REAL time: 6 secs 
+Phase 10.5  Local Placement Optimization (Checksum:cee70c50) REAL time: 7 secs 
 
-Total REAL time to Placer completion: 6 secs 
-Total CPU  time to Placer completion: 6 secs 
+Total REAL time to Placer completion: 7 secs 
+Total CPU  time to Placer completion: 7 secs 
 Writing design to file MiniAlu.ncd
 
 
@@ -106,36 +106,36 @@ Writing design to file MiniAlu.ncd
 Starting Router
 
 
-Phase  1  : 896 unrouted;      REAL time: 10 secs 
+Phase  1  : 896 unrouted;      REAL time: 12 secs 
 
-Phase  2  : 834 unrouted;      REAL time: 10 secs 
+Phase  2  : 834 unrouted;      REAL time: 12 secs 
 
-Phase  3  : 206 unrouted;      REAL time: 10 secs 
+Phase  3  : 206 unrouted;      REAL time: 12 secs 
 
-Phase  4  : 226 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
+Phase  4  : 226 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
-
-Updating file: MiniAlu.ncd with current fully routed design.
-
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 11 secs 
-
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
 
 Updating file: MiniAlu.ncd with current fully routed design.
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 13 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 17 secs 
 
-Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
+Updating file: MiniAlu.ncd with current fully routed design.
 
-Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
 
-Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
 
-Total REAL time to Router completion: 16 secs 
-Total CPU time to Router completion: 15 secs 
+Phase 10  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
+
+Phase 11  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
+
+Phase 12  : 0 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
+
+Total REAL time to Router completion: 18 secs 
+Total CPU time to Router completion: 18 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -190,10 +190,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 16 secs 
-Total CPU time to PAR completion: 16 secs 
+Total REAL time to PAR completion: 19 secs 
+Total CPU time to PAR completion: 19 secs 
 
-Peak Memory Usage:  602 MB
+Peak Memory Usage:  569 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.

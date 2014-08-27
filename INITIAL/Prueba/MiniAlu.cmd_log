@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "/home/mora260/U/LaboDigitales/INITIAL/Prueba/MiniAlu.xst" -ofn "/home/mora260/U/LaboDigitales/INITIAL/Prueba/MiniAlu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/mora260/U/LaboDigitales/INITIAL/Experimento1/MiniAlu.ucf -p xc3s500e-fg320-4 MiniAlu.ngc MiniAlu.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o MiniAlu_map.ncd MiniAlu.ngd MiniAlu.pcf 
+par -w -intstyle ise -ol high -t 1 MiniAlu_map.ncd MiniAlu.ncd MiniAlu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MiniAlu.twx MiniAlu.ncd -o MiniAlu.twr MiniAlu.pcf 
+bitgen -intstyle ise -f MiniAlu.ut MiniAlu.ncd 
+xst -intstyle ise -ifn "/home/mora260/U/LaboDigitales/INITIAL/Prueba/MiniAlu.xst" -ofn "/home/mora260/U/LaboDigitales/INITIAL/Prueba/MiniAlu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/mora260/U/LaboDigitales/INITIAL/Experimento1/MiniAlu.ucf -p xc3s500e-fg320-4 MiniAlu.ngc MiniAlu.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o MiniAlu_map.ncd MiniAlu.ngd MiniAlu.pcf 
+par -w -intstyle ise -ol high -t 1 MiniAlu_map.ncd MiniAlu.ncd MiniAlu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MiniAlu.twx MiniAlu.ncd -o MiniAlu.twr MiniAlu.pcf 
+bitgen -intstyle ise -f MiniAlu.ut MiniAlu.ncd 

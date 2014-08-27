@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/mora260/Repos/LaboDigi/Experimento1Original/MiniAluOriginal/impact.xsl
+OUTFILE=/home/mora260/Repos/LaboDigi/Experimento1Original/MiniAluOriginal/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/mora260/Repos/LaboDigi/Experimento1Original/MiniAluOriginal
+LICENSE=iMPACT
+USER_INFO=iMPACT
