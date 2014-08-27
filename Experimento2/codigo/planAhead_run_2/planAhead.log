@@ -63,3 +63,13 @@ Phase 0 | Netlist Checksum: 0088b075
 open_rtl_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:13 . Memory (MB): peak = 2800.633 ; gain = 106.012
 update_compile_order -fileset sim_1
 update_compile_order -fileset sources_1
+exit
+ERROR: [#UNDEF] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+ (See /home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/planAhead_pid8993.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Aug 27 09:49:59 2014...
+INFO: [Common 17-83] Releasing license: PlanAhead

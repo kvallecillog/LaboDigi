@@ -58,7 +58,7 @@ begin
 	endcase
 	*/
 	
-	/*
+	
 	
 	case (iAddress)
 
@@ -83,8 +83,8 @@ begin
 		oInstruction = 28'd0;		//NOP
 	endcase	
 	
-
-	*/
+/*
+	
 	// Verificación del pipeline
 	case (iAddress)
 
@@ -113,7 +113,7 @@ begin
 		oInstruction = 28'd0;		//NOP
 	endcase	
 	
-	
+	*/
 
 
 

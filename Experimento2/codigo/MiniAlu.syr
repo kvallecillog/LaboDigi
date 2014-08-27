@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.07 secs
+Total CPU time to Xst completion: 0.06 secs
  
 --> 
 Reading design: MiniAlu.prj
@@ -183,6 +183,9 @@ Performing bidirectional port resolution...
 
 Synthesizing Unit <ROM>.
     Related source file is "Module_ROM.v".
+    Found 16x28-bit ROM for signal <oInstruction$mux0000>.
+    Summary:
+	inferred   1 ROM(s).
 Unit <ROM> synthesized.
 
 
@@ -254,6 +257,8 @@ HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 2
  9x16-bit dual-port RAM                                : 2
+# ROMs                                                 : 1
+ 16x28-bit ROM                                         : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
 # Adders/Subtractors                                   : 2
@@ -277,48 +282,6 @@ Macro Statistics
 *                       Advanced HDL Synthesis                          *
 =========================================================================
 
-WARNING:Xst:1710 - FF/Latch <Q_3> (without init value) has a constant value of 0 in block <FFD4>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_4> (without init value) has a constant value of 0 in block <FFD4>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_5> (without init value) has a constant value of 0 in block <FFD4>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_6> (without init value) has a constant value of 0 in block <FFD4>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_7> (without init value) has a constant value of 0 in block <FFD4>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <16>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <17>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <18>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <19>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <20>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <21>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <22>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <23>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <24>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <25>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <26>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <27>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <28>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <29>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <30>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <31>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_2> (without init value) has a constant value of 0 in block <FFD0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_3> (without init value) has a constant value of 0 in block <FFD0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_4> (without init value) has a constant value of 0 in block <FFD0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_5> (without init value) has a constant value of 0 in block <FFD0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_6> (without init value) has a constant value of 0 in block <FFD0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_7> (without init value) has a constant value of 0 in block <FFD0>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_1> (without init value) has a constant value of 0 in block <FFD1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_3> (without init value) has a constant value of 0 in block <FFD1>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_3> (without init value) has a constant value of 0 in block <FFD2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_4> (without init value) has a constant value of 0 in block <FFD2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_5> (without init value) has a constant value of 0 in block <FFD2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_6> (without init value) has a constant value of 0 in block <FFD2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_7> (without init value) has a constant value of 0 in block <FFD2>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_1> (without init value) has a constant value of 0 in block <FFD3>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_2> (without init value) has a constant value of 0 in block <FFD3>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_3> (without init value) has a constant value of 0 in block <FFD3>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_4> (without init value) has a constant value of 0 in block <FFD3>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_5> (without init value) has a constant value of 0 in block <FFD3>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_6> (without init value) has a constant value of 0 in block <FFD3>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_7> (without init value) has a constant value of 0 in block <FFD3>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1710 - FF/Latch <Q_2> (without init value) has a constant value of 0 in block <FFD4>. This FF/Latch will be trimmed during the optimization process.
 
 Synthesizing (advanced) Unit <RAM_DUAL_READ_PORT>.
 INFO:Xst:3231 - The small RAM <Mram_Ram> will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
@@ -361,6 +324,8 @@ Advanced HDL Synthesis Report
 Macro Statistics
 # RAMs                                                 : 2
  9x16-bit dual-port distributed RAM                    : 2
+# ROMs                                                 : 1
+ 16x28-bit ROM                                         : 1
 # Multipliers                                          : 1
  16x16-bit multiplier                                  : 1
 # Adders/Subtractors                                   : 2
@@ -381,9 +346,6 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-INFO:Xst:2261 - The FF/Latch <FFD1/Q_3> in Unit <MiniAlu> is equivalent to the following FF/Latch, which will be removed : <FFD1/Q_1> 
-WARNING:Xst:1710 - FF/Latch <FFD1/Q_3> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <Mmult_rResultTemp_mult0000> of sequential type is unconnected in block <MiniAlu>.
 WARNING:Xst:2677 - Node <rResultTemp_0> of sequential type is unconnected in block <MiniAlu>.
 WARNING:Xst:2677 - Node <rResultTemp_1> of sequential type is unconnected in block <MiniAlu>.
 WARNING:Xst:2677 - Node <rResultTemp_2> of sequential type is unconnected in block <MiniAlu>.
@@ -400,104 +362,62 @@ WARNING:Xst:2677 - Node <rResultTemp_12> of sequential type is unconnected in bl
 WARNING:Xst:2677 - Node <rResultTemp_13> of sequential type is unconnected in block <MiniAlu>.
 WARNING:Xst:2677 - Node <rResultTemp_14> of sequential type is unconnected in block <MiniAlu>.
 WARNING:Xst:2677 - Node <rResultTemp_15> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_16> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_17> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_18> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_19> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_20> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_21> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_22> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_23> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_24> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_25> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_26> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_27> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_28> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_29> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_30> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <rResultTemp_31> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_lut<0>, rResult<0>, Maddsub_rResult_addsub0000_cy<8>, Maddsub_rResult_addsub0000_cy<7>, Maddsub_rResult_addsub0000_cy<14>, rResult<15>, Maddsub_rResult_addsub0000_cy<1>, Maddsub_rResult_addsub0000_cy<0>, Maddsub_rResult_addsub0000_cy<11>, Maddsub_rResult_addsub0000_cy<13>, Maddsub_rResult_addsub0000_cy<9>, rResult_addsub0000<15>, Maddsub_rResult_addsub0000_cy<2>, Maddsub_rResult_addsub0000_cy<4>, wSourceData0<0>, Maddsub_rResult_addsub0000_cy<5>, Maddsub_rResult_addsub0000_cy<3>, Maddsub_rResult_addsub0000_cy<10>, rResult_addsub0000<0>, Maddsub_rResult_addsub0000_cy<6>, Maddsub_rResult_addsub0000_cy<12>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_lut<14>, rResult<14>, rResult_addsub0000<14>, wSourceData0<14>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult_addsub0000<13>, rResult<13>, Maddsub_rResult_addsub0000_lut<13>, wSourceData0<13>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult_addsub0000<12>, wSourceData0<12>, Maddsub_rResult_addsub0000_lut<12>, rResult<12>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_lut<11>, wSourceData0<11>, rResult<11>, rResult_addsub0000<11>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult<10>, Maddsub_rResult_addsub0000_lut<10>, wSourceData0<10>, rResult_addsub0000<10>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult<9>, rResult_addsub0000<9>, Maddsub_rResult_addsub0000_lut<9>, wSourceData0<9>.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_31> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_30> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_29> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_28> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_27> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_26> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_25> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_24> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_23> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_22> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_21> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_20> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_19> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_18> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_17> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <rResultTemp_16> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD1/Q_3> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1898 - Due to constant pushing, FF/Latch <Mmult_rResultTemp_mult0000> is unconnected in block <MiniAlu>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rBranchTaken, Mcompar_rBranchTaken_cmp_le0000_cy<0>, Mcompar_rBranchTaken_cmp_le0000_cy<3>, wInstruction<7>, Mcompar_rBranchTaken_cmp_le0000_cy<1>, Maddsub_rResult_addsub0000_lut<0>, rBranchTaken_cmp_le0000, Mcompar_rBranchTaken_cmp_le0000_cy<9>, Mcompar_rBranchTaken_cmp_le0000_cy<5>, Mcompar_rBranchTaken_cmp_le0000_cy<4>, Mcompar_rBranchTaken_cmp_le0000_cy<6>, Mcompar_rBranchTaken_cmp_le0000_cy<8>, Mcompar_rBranchTaken_cmp_le0000_cy<11>, Mcompar_rBranchTaken_cmp_le0000_cy<2>, Mcompar_rBranchTaken_cmp_le0000_cy<13>, Mcompar_rBranchTaken_cmp_le0000_cy<12>, wSourceData0<0>, Mcompar_rBranchTaken_cmp_le0000_cy<14>, rResult_addsub0000<0>, InstructionRom/oInstruction_and0000, rResult<0>, wIP<15>, Mcompar_rBranchTaken_cmp_le0000_cy<7>, Mcompar_rBranchTaken_cmp_le0000_cy<10>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_cy<4>, Maddsub_rResult_addsub0000_cy<3>, Maddsub_rResult_addsub0000_cy<7>, Maddsub_rResult_addsub0000_cy<13>, Maddsub_rResult_addsub0000_lut<1>, Maddsub_rResult_addsub0000_cy<9>, rResult_addsub0000<15>, rResult<1>, Maddsub_rResult_addsub0000_cy<14>, Maddsub_rResult_addsub0000_cy<10>, Maddsub_rResult_addsub0000_cy<6>, Maddsub_rResult_addsub0000_cy<11>, Maddsub_rResult_addsub0000_cy<2>, rResult<15>, rResult_addsub0000<1>, Maddsub_rResult_addsub0000_cy<8>, Maddsub_rResult_addsub0000_cy<5>, wSourceData0<1>, Maddsub_rResult_addsub0000_cy<1>, Maddsub_rResult_addsub0000_cy<12>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult_addsub0000<14>, wSourceData0<14>, rResult<14>, Maddsub_rResult_addsub0000_lut<14>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_lut<13>, rResult_addsub0000<13>, wSourceData0<13>, rResult<13>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult<12>, rResult_addsub0000<12>, Maddsub_rResult_addsub0000_lut<12>, wSourceData0<12>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_lut<11>, wSourceData0<11>, rResult_addsub0000<11>, rResult<11>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: wSourceData0<10>, Maddsub_rResult_addsub0000_lut<10>, rResult<10>, rResult_addsub0000<10>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult_addsub0000<9>, Maddsub_rResult_addsub0000_lut<9>, rResult<9>, wSourceData0<9>.
 WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: wSourceData0<8>, rResult_addsub0000<8>, rResult<8>, Maddsub_rResult_addsub0000_lut<8>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: wSourceData0<7>, rResult<7>, Maddsub_rResult_addsub0000_lut<7>, rResult_addsub0000<7>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult_addsub0000<6>, wSourceData0<6>, Maddsub_rResult_addsub0000_lut<6>, rResult<6>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult_addsub0000<5>, Maddsub_rResult_addsub0000_lut<5>, wSourceData0<5>, rResult<5>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_lut<4>, wSourceData0<4>, rResult<4>, rResult_addsub0000<4>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult_addsub0000<3>, Maddsub_rResult_addsub0000_lut<3>, wSourceData0<3>, rResult<3>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: wSourceData0<2>, rResult<2>, Maddsub_rResult_addsub0000_lut<2>, rResult_addsub0000<2>.
-WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: wSourceData0<1>, rResult<1>, Maddsub_rResult_addsub0000_lut<1>, rResult_addsub0000<1>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: wSourceData0<7>, rResult_addsub0000<7>, rResult<7>, Maddsub_rResult_addsub0000_lut<7>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult_addsub0000<6>, Maddsub_rResult_addsub0000_lut<6>, wSourceData0<6>, rResult<6>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult<5>, wSourceData0<5>, Maddsub_rResult_addsub0000_lut<5>, rResult_addsub0000<5>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: rResult<4>, Maddsub_rResult_addsub0000_lut<4>, wSourceData0<4>, rResult_addsub0000<4>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_lut<3>, rResult_addsub0000<3>, rResult<3>, wSourceData0<3>.
+WARNING:Xst:2170 - Unit MiniAlu : the following signal(s) form a combinatorial loop: Maddsub_rResult_addsub0000_lut<2>, rResult_addsub0000<2>, wSourceData0<2>, rResult<2>.
 
 Optimizing unit <MiniAlu> ...
 
 Optimizing unit <RAM_DUAL_READ_PORT> ...
 
 Optimizing unit <FFD_POSEDGE_SYNCRONOUS_RESET_1> ...
-WARNING:Xst:1710 - FF/Latch <FFD2/Q_3> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD2/Q_4> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD2/Q_5> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD2/Q_6> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD2/Q_7> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_1> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_2> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_3> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_4> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_5> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_6> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_7> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_2> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_3> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_4> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_5> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <FFD4/Q_7> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_6> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_7> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_5> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_4> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD4/Q_3> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_7> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_6> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD3/Q_5> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD0/Q_7> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD0/Q_6> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD0/Q_5> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD0/Q_4> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD0/Q_3> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <FFD0/Q_2> (without init value) has a constant value of 0 in block <MiniAlu>. This FF/Latch will be trimmed during the optimization process.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram_ren16> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram_ren15> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram_ren14> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram_ren13> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram_ren12> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram_ren11> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram_ren10> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram_ren9> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram16> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram15> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram14> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram13> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram12> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram11> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram10> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/Mram_Ram9> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut1_15> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut1_14> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut1_13> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut1_12> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut1_11> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut1_10> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut1_9> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut1_8> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut0_15> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut0_14> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut0_13> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut0_12> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut0_11> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut0_10> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut0_9> of sequential type is unconnected in block <MiniAlu>.
-WARNING:Xst:2677 - Node <DataRam/oDataOut0_8> of sequential type is unconnected in block <MiniAlu>.
 
 Mapping all equations...
 Building and optimizing final netlist ...
-Found area constraint ratio of 100 (+ 5) on block MiniAlu, actual ratio is 0.
-FlipFlop FFD1/Q_2 has been replicated 1 time(s)
+Found area constraint ratio of 100 (+ 5) on block MiniAlu, actual ratio is 2.
 
 Final Macro Processing ...
 
@@ -505,8 +425,8 @@ Final Macro Processing ...
 Final Register Report
 
 Macro Statistics
-# Registers                                            : 51
- Flip-Flops                                            : 51
+# Registers                                            : 78
+ Flip-Flops                                            : 78
 
 =========================================================================
 
@@ -535,23 +455,25 @@ Design Statistics
 # IOs                              : 10
 
 Cell Usage :
-# BELS                             : 116
+# BELS                             : 301
 #      GND                         : 1
-#      INV                         : 1
-#      LUT2                        : 5
-#      LUT2_L                      : 1
-#      LUT3                        : 42
-#      LUT3_D                      : 1
-#      LUT4                        : 16
-#      MUXCY                       : 22
-#      MUXF5                       : 2
+#      LUT2                        : 25
+#      LUT2_D                      : 1
+#      LUT3                        : 73
+#      LUT3_D                      : 3
+#      LUT3_L                      : 2
+#      LUT4                        : 96
+#      LUT4_D                      : 8
+#      LUT4_L                      : 6
+#      MUXCY                       : 40
+#      MUXF5                       : 13
 #      VCC                         : 1
-#      XORCY                       : 24
-# FlipFlops/Latches                : 51
-#      FD                          : 32
-#      FDRE                        : 19
-# RAMS                             : 16
-#      RAM16X1D                    : 16
+#      XORCY                       : 32
+# FlipFlops/Latches                : 78
+#      FD                          : 48
+#      FDRE                        : 30
+# RAMS                             : 32
+#      RAM16X1D                    : 32
 # Clock Buffers                    : 1
 #      BUFGP                       : 1
 # IO Buffers                       : 9
@@ -564,11 +486,11 @@ Device utilization summary:
 
 Selected Device : 3s500efg320-4 
 
- Number of Slices:                       45  out of   4656     0%  
- Number of Slice Flip Flops:             51  out of   9312     0%  
- Number of 4 input LUTs:                 98  out of   9312     1%  
-    Number used as logic:                66
-    Number used as RAMs:                 32
+ Number of Slices:                      144  out of   4656     3%  
+ Number of Slice Flip Flops:             78  out of   9312     0%  
+ Number of 4 input LUTs:                278  out of   9312     2%  
+    Number used as logic:               214
+    Number used as RAMs:                 64
  Number of IOs:                          10
  Number of bonded IOBs:                  10  out of    232     4%  
  Number of GCLKs:                         1  out of     24     4%  
@@ -594,7 +516,7 @@ Clock Information:
 -----------------------------------+------------------------+-------+
 Clock Signal                       | Clock buffer(FF name)  | Load  |
 -----------------------------------+------------------------+-------+
-Clock                              | BUFGP                  | 67    |
+Clock                              | BUFGP                  | 110   |
 -----------------------------------+------------------------+-------+
 
 Asynchronous Control Signals Information:
@@ -605,8 +527,8 @@ Timing Summary:
 ---------------
 Speed Grade: -4
 
-   Minimum period: 38.472ns (Maximum Frequency: 25.993MHz)
-   Minimum input arrival time before clock: 5.762ns
+   Minimum period: 88.307ns (Maximum Frequency: 11.324MHz)
+   Minimum input arrival time before clock: 8.922ns
    Maximum output required time after clock: 4.283ns
    Maximum combinational path delay: No path found
 
@@ -616,93 +538,121 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'Clock'
-  Clock period: 38.472ns (frequency: 25.993MHz)
-  Total number of paths / destination ports: 12921 / 155
+  Clock period: 88.307ns (frequency: 11.324MHz)
+  Total number of paths / destination ports: 6702550586 / 374
 -------------------------------------------------------------------------
-Delay:               38.472ns (Levels of Logic = 33)
-  Source:            FFD3/Q_0 (FF)
-  Destination:       DataRam/Mram_Ram_ren8 (RAM)
+Delay:               88.307ns (Levels of Logic = 73)
+  Source:            FFD0/Q_0 (FF)
+  Destination:       DataRam/oDataOut1_15 (FF)
   Source Clock:      Clock rising
   Destination Clock: Clock rising
 
-  Data Path: FFD3/Q_0 to DataRam/Mram_Ram_ren8
+  Data Path: FFD0/Q_0 to DataRam/oDataOut1_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDRE:C->Q             1   0.591   0.595  FFD3/Q_0 (FFD3/Q_0)
-     LUT3_D:I0->LO         1   0.704   0.275  wSourceData1_cmp_eq000081 (N2)
-     LUT3:I0->O            2   0.704   0.526  wSourceData1<0>1 (wSourceData1<0>)
+     FDRE:C->Q             2   0.591   0.622  FFD0/Q_0 (FFD0/Q_0)
+     LUT4:I0->O            1   0.704   0.595  wSourceData1_cmp_eq0000826 (wSourceData1_cmp_eq0000826)
+     LUT2_D:I0->LO         1   0.704   0.275  wSourceData1_cmp_eq0000847 (N250)
+     LUT3:I0->O            3   0.704   0.610  wSourceData1<0>1 (wSourceData1<0>)
      LUT3:I1->O            1   0.704   0.000  Maddsub_rResult_addsub0000_lut<0> (Maddsub_rResult_addsub0000_lut<0>)
-     XORCY:LI->O           1   0.527   0.424  Maddsub_rResult_addsub0000_xor<0> (rResult_addsub0000<0>)
-     LUT4:I3->O            4   0.704   0.622  rResult<0>1 (rResult<0>)
-     LUT3:I2->O            1   0.704   0.420  wSourceData0<0>1 (wSourceData0<0>)
+     XORCY:LI->O           1   0.527   0.499  Maddsub_rResult_addsub0000_xor<0> (rResult_addsub0000<0>)
+     LUT4:I1->O            4   0.704   0.622  rResult<0>1 (rResult<0>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<0>1 (wSourceData0<0>)
      MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<0> (Maddsub_rResult_addsub0000_cy<0>)
-     XORCY:CI->O           1   0.804   0.424  Maddsub_rResult_addsub0000_xor<1> (rResult_addsub0000<1>)
-     LUT4:I3->O            4   0.704   0.622  rResult<1>1 (rResult<1>)
-     LUT3:I2->O            1   0.704   0.420  wSourceData0<1>1 (wSourceData0<1>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<1> (rResult_addsub0000<1>)
+     LUT4:I1->O            4   0.704   0.622  rResult<1>1 (rResult<1>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<1>1 (wSourceData0<1>)
      MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<1> (Maddsub_rResult_addsub0000_cy<1>)
-     XORCY:CI->O           1   0.804   0.424  Maddsub_rResult_addsub0000_xor<2> (rResult_addsub0000<2>)
-     LUT4:I3->O            4   0.704   0.622  rResult<2>1 (rResult<2>)
-     LUT3:I2->O            1   0.704   0.420  wSourceData0<2>1 (wSourceData0<2>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<2> (rResult_addsub0000<2>)
+     LUT4:I1->O            4   0.704   0.622  rResult<2>1 (rResult<2>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<2>1 (wSourceData0<2>)
      MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<2> (Maddsub_rResult_addsub0000_cy<2>)
      XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<3> (rResult_addsub0000<3>)
-     LUT3:I1->O            4   0.704   0.622  rResult<3>1 (rResult<3>)
-     LUT3:I2->O            1   0.704   0.420  wSourceData0<3>1 (wSourceData0<3>)
+     LUT4:I1->O            4   0.704   0.622  rResult<3>1 (rResult<3>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<3>1 (wSourceData0<3>)
      MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<3> (Maddsub_rResult_addsub0000_cy<3>)
      XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<4> (rResult_addsub0000<4>)
-     LUT3:I1->O            4   0.704   0.622  rResult<4>1 (rResult<4>)
-     LUT3:I2->O            1   0.704   0.420  wSourceData0<4>1 (wSourceData0<4>)
+     LUT4:I1->O            4   0.704   0.622  rResult<4>1 (rResult<4>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<4>1 (wSourceData0<4>)
      MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<4> (Maddsub_rResult_addsub0000_cy<4>)
      XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<5> (rResult_addsub0000<5>)
-     LUT3:I1->O            4   0.704   0.622  rResult<5>1 (rResult<5>)
-     LUT3:I2->O            1   0.704   0.420  wSourceData0<5>1 (wSourceData0<5>)
+     LUT4:I1->O            4   0.704   0.622  rResult<5>1 (rResult<5>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<5>1 (wSourceData0<5>)
      MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<5> (Maddsub_rResult_addsub0000_cy<5>)
      XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<6> (rResult_addsub0000<6>)
-     LUT3:I1->O            4   0.704   0.622  rResult<6>1 (rResult<6>)
-     LUT3:I2->O            1   0.704   0.420  wSourceData0<6>1 (wSourceData0<6>)
-     MUXCY:DI->O           0   0.888   0.000  Maddsub_rResult_addsub0000_cy<6> (Maddsub_rResult_addsub0000_cy<6>)
+     LUT4:I1->O            4   0.704   0.622  rResult<6>1 (rResult<6>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<6>1 (wSourceData0<6>)
+     MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<6> (Maddsub_rResult_addsub0000_cy<6>)
      XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<7> (rResult_addsub0000<7>)
-     LUT3:I1->O            5   0.704   0.000  rResult<7>1 (rResult<7>)
-     RAM16X1D:D                0.381          DataRam/Mram_Ram8
+     LUT4:I1->O            4   0.704   0.622  rResult<7>1 (rResult<7>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<7>1 (wSourceData0<7>)
+     MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<7> (Maddsub_rResult_addsub0000_cy<7>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<8> (rResult_addsub0000<8>)
+     LUT4:I1->O            4   0.704   0.622  rResult<8>1 (rResult<8>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<8>1 (wSourceData0<8>)
+     MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<8> (Maddsub_rResult_addsub0000_cy<8>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<9> (rResult_addsub0000<9>)
+     LUT4:I1->O            4   0.704   0.622  rResult<9>1 (rResult<9>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<9>1 (wSourceData0<9>)
+     MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<9> (Maddsub_rResult_addsub0000_cy<9>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<10> (rResult_addsub0000<10>)
+     LUT4:I1->O            4   0.704   0.622  rResult<10>1 (rResult<10>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<10>1 (wSourceData0<10>)
+     MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<10> (Maddsub_rResult_addsub0000_cy<10>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<11> (rResult_addsub0000<11>)
+     LUT4:I1->O            4   0.704   0.622  rResult<11>1 (rResult<11>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<11>1 (wSourceData0<11>)
+     MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<11> (Maddsub_rResult_addsub0000_cy<11>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<12> (rResult_addsub0000<12>)
+     LUT4:I1->O            4   0.704   0.622  rResult<12>1 (rResult<12>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<12>1 (wSourceData0<12>)
+     MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<12> (Maddsub_rResult_addsub0000_cy<12>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<13> (rResult_addsub0000<13>)
+     LUT2:I1->O            4   0.704   0.622  rResult<13>1 (rResult<13>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<13>1 (wSourceData0<13>)
+     MUXCY:DI->O           1   0.888   0.000  Maddsub_rResult_addsub0000_cy<13> (Maddsub_rResult_addsub0000_cy<13>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<14> (rResult_addsub0000<14>)
+     LUT2:I1->O            4   0.704   0.622  rResult<14>1 (rResult<14>)
+     LUT3:I2->O            2   0.704   0.447  wSourceData0<14>1 (wSourceData0<14>)
+     MUXCY:DI->O           0   0.888   0.000  Maddsub_rResult_addsub0000_cy<14> (Maddsub_rResult_addsub0000_cy<14>)
+     XORCY:CI->O           1   0.804   0.499  Maddsub_rResult_addsub0000_xor<15> (rResult_addsub0000<15>)
+     LUT2:I1->O            4   0.704   0.622  rResult<15>1 (rResult<15>)
+     LUT3:I2->O           10   0.704   0.917  wSourceData1<15>1 (wSourceData1<15>)
+     LUT3_D:I2->LO         1   0.704   0.104  Mcompar_rBranchTaken_cmp_le0000_cy<15> (N253)
+     LUT4:I3->O           15   0.704   1.021  rBranchTaken1_1 (rBranchTaken1)
+     LUT4_D:I3->O         12   0.704   0.965  InstructionRom/oInstruction_and000088 (InstructionRom/oInstruction_and000088)
+     LUT4:I3->O            7   0.704   0.712  InstructionRom/oInstruction_and0000116 (InstructionRom/oInstruction_and0000)
+     LUT4:I3->O           17   0.704   1.051  InstructionRom/oInstruction<9> (wInstruction<9>)
+     RAM16X1D:DPRA1->DPO    1   0.704   0.420  DataRam/Mram_Ram_ren1 (DataRam/_varindex0001<0>)
+     FD:D                      0.308          DataRam/oDataOut1_0
     ----------------------------------------
-    Total                     38.472ns (26.015ns logic, 12.457ns route)
-                                       (67.6% logic, 32.4% route)
+    Total                     88.307ns (56.374ns logic, 31.933ns route)
+                                       (63.8% logic, 36.2% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'Clock'
-  Total number of paths / destination ports: 171 / 35
+  Total number of paths / destination ports: 908 / 207
 -------------------------------------------------------------------------
-Offset:              5.762ns (Levels of Logic = 18)
+Offset:              8.922ns (Levels of Logic = 6)
   Source:            Reset (PAD)
-  Destination:       IP/Q_15 (FF)
+  Destination:       DataRam/oDataOut0_15 (FF)
   Destination Clock: Clock rising
 
-  Data Path: Reset to IP/Q_15
+  Data Path: Reset to DataRam/oDataOut0_15
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     IBUF:I->O            36   1.218   1.438  Reset_IBUF (Reset_IBUF)
-     LUT2:I0->O            1   0.704   0.000  IP/Mcount_Q_lut<0> (IP/Mcount_Q_lut<0>)
-     MUXCY:S->O            1   0.464   0.000  IP/Mcount_Q_cy<0> (IP/Mcount_Q_cy<0>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<1> (IP/Mcount_Q_cy<1>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<2> (IP/Mcount_Q_cy<2>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<3> (IP/Mcount_Q_cy<3>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<4> (IP/Mcount_Q_cy<4>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<5> (IP/Mcount_Q_cy<5>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<6> (IP/Mcount_Q_cy<6>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<7> (IP/Mcount_Q_cy<7>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<8> (IP/Mcount_Q_cy<8>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<9> (IP/Mcount_Q_cy<9>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<10> (IP/Mcount_Q_cy<10>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<11> (IP/Mcount_Q_cy<11>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<12> (IP/Mcount_Q_cy<12>)
-     MUXCY:CI->O           1   0.059   0.000  IP/Mcount_Q_cy<13> (IP/Mcount_Q_cy<13>)
-     MUXCY:CI->O           0   0.059   0.000  IP/Mcount_Q_cy<14> (IP/Mcount_Q_cy<14>)
-     XORCY:CI->O           1   0.804   0.000  IP/Mcount_Q_xor<15> (IP/Mcount_Q15)
-     FD:D                      0.308          IP/Q_15
+     IBUF:I->O            56   1.218   1.445  Reset_IBUF (Reset_IBUF)
+     LUT2:I0->O            6   0.704   0.844  wIPInitialValue<1>1 (Madd__add0000_lut<1>)
+     LUT4:I0->O            1   0.704   0.000  InstructionRom/oInstruction_and0000116_SW0_G (N235)
+     MUXF5:I1->O           1   0.321   0.499  InstructionRom/oInstruction_and0000116_SW0 (N173)
+     LUT4:I1->O           17   0.704   1.051  InstructionRom/oInstruction<2>1 (wInstruction<2>)
+     RAM16X1D:DPRA2->DPO    1   0.704   0.420  DataRam/Mram_Ram1 (DataRam/_varindex0000<0>)
+     FD:D                      0.308          DataRam/oDataOut0_0
     ----------------------------------------
-    Total                      5.762ns (4.324ns logic, 1.438ns route)
-                                       (75.0% logic, 25.0% route)
+    Total                      8.922ns (4.663ns logic, 4.259ns route)
+                                       (52.3% logic, 47.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'Clock'
@@ -726,15 +676,15 @@ Offset:              4.283ns (Levels of Logic = 1)
 =========================================================================
 
 
-Total REAL time to Xst completion: 6.00 secs
-Total CPU time to Xst completion: 6.28 secs
+Total REAL time to Xst completion: 8.00 secs
+Total CPU time to Xst completion: 7.35 secs
  
 --> 
 
 
-Total memory usage is 526372 kilobytes
+Total memory usage is 526724 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  156 (   0 filtered)
-Number of infos    :    7 (   0 filtered)
+Number of warnings :   71 (   0 filtered)
+Number of infos    :    6 (   0 filtered)
 
