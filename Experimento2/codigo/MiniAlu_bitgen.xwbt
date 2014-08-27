@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.ncd
+OUTFILE=/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2
+LICENSE=WebPack
+USER_INFO=210926040_0_0_763

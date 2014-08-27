@@ -1,0 +1,5 @@
+set -tmpdir "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/xst/projnav.tmp"
+set -xsthdpdir "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/xst"
+elaborate
+-ifn TestBench.prj
+-ifmt mixed

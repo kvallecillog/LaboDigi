@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/TestBench_isim_beh.exe" -prj "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/TestBench_beh.prj" "work.TestBench" "work.glbl" 

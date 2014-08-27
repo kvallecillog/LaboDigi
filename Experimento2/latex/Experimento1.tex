@@ -1,0 +1,119 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12pt,letterpaper]{article}     % Tipo de documento y otras especificaciones
+\usepackage[utf8]{inputenc}                   % Para escribir tildes y eñes
+\usepackage[spanish]{babel}                   % Para que los títulos de figuras, tablas y otros estén en español
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}					% Cambiar nombre a tablas
+\addto\captionsspanish{\renewcommand{\listtablename}{Índice de tablas}}		% Cambiar nombre a lista de tablas
+\usepackage{geometry}                         
+\geometry{left=18mm,right=18mm,top=21mm,bottom=21mm} % Tamaño del área de escritura de la página
+\usepackage{ucs}
+\usepackage{amsmath}      % Los paquetes ams son desarrollados por la American Mathematical Society
+\usepackage{amsfonts}     % y mejoran la escritura de fórmulas y símbolos matemáticos.
+\usepackage{amssymb}
+\usepackage{graphicx}     % Para insertar gráficas
+\usepackage{epstopdf}     % Permite el uso de eps
+\usepackage[lofdepth,lotdepth]{subfig}	% Para colocar varias figuras
+\usepackage{unitsdef}	  % Para la presentación correcta de unidades
+\usepackage{pdfpages}   %incluir paginas de pdf externo, para los anexos
+\usepackage{appendix}   %para los anexos
+\renewcommand{\unitvaluesep}{\hspace*{4pt}}	% Redimensionamiento del espacio entre magnitud y unidad
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=black,citecolor=black]{hyperref}     % Para insertar hipervínculos y marcadores
+\usepackage{float}		% Para ubicar las tablas y figuras justo después del texto
+\usepackage{booktabs}	% Para hacer tablas más estilizadas
+\batchmode
+%\usepackage{apacite}
+\bibliographystyle{plain} 
+\pagestyle{plain} 
+\usepackage{ltablex}
+\pagenumbering{arabic}
+\usepackage{lastpage}
+\usepackage{fancyhdr}	% Para manejar los encabezados y pies de página
+\pagestyle{fancy}		% Contenido de los encabezados y pies de pagina
+\usepackage{multicol} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%No modificar las líneas anteriores
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lhead{IE-0424 LABORATORIO DE CIRCUITOS DIGITALES I}
+\chead{}
+\rhead{Experimento 1}	% Aquí va el numero de experimento, al igual que en el titulo
+\lfoot{Escuela de Ingeniería Eléctrica}
+\cfoot{\thepage\ de \pageref{LastPage}}
+\rfoot{Universidad de Costa Rica}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\author{Natalia Araya Campos, B00448 \\ Alejandro Leon Torres, B13645 \\ Andres Mora Zuñiga, B14463 \\ Kenneth Vallecillo González, B16750  \\ {\small Grupo 1}\\ \\ \\ \\Profesor: Diego Valverde G\vspace*{2.0in}}
+\title{Universidad de Costa Rica\\{\small Facultad de Ingeniería\\Escuela de Ingeniería Eléctrica\\IE-0424 LABORATORIO DE CIRCUITOS DIGITALES I \\II ciclo 2014\\\vspace*{0.55in} Experimento I}\\  MiniAlu Xilinx\\ \vspace*{1.35in}}
+%\date{}  		
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}	% Inicio del documento
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pdfbookmark[1]{Portada}{portada} 	% Marcador para el título
+
+\maketitle							% Título
+
+\thispagestyle{empty} 
+
+\newpage
+\tableofcontents
+\listoffigures
+\newpage
+\setcounter{secnumdepth}{4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Ejercicio I}
+Para implementar la multiplicación se debe agregar en el archivo \textit{Defintions.v} la siguiente línea:
+\begin{verbatim}
+`define MUL   4'b1000
+\end{verbatim}
+Y en el archivo \textit{MiniAlu.v} se debe agregar y alterar el código, se muestra a continuación los cambios más significativos en el archivo:
+\begin{verbatim}
+// Se cambia de reg a 
+// reg wired como lo indica el enunciado.
+reg signed [15:0] rResult;
+
+// Se crea una variable temporal para almacenar el resultado de la
+// multiplicación y después tomar la parte más significativa y ponerla
+// en rResult.
+reg signed [31:0] rResultTemp;
+
+
+// Se cambia el tipo de wire en un wired signed como lo indica el enunciado
+// esto con el fin de obtener un resultado correcto en la multiplicación SMUL.
+wire signed [15:0] wSourceData0_signed,wSourceData1_signed;
+
+
+
+// Se asigna el valor de las sources a las sources con signo
+// Esto permite tomar los valores de las sources
+// y darles signo para utilizarlos en la multiplicación SMUL
+// y utilizar sus valores sin signo para las demás operaciones.
+assign wSourceData0_signed = wSourceData0;
+assign wSourceData1_signed = wSourceData1;
+
+
+
+
+//-------------------------------------
+`MUL:
+begin
+	rFFLedEN     <= 1'b0;
+	rBranchTaken <= 1'b0;
+	rWriteEnable <= 1'b1;
+	rResultTemp  <= wSourceData0_signed * wSourceData1_signed;
+	rResult		 <= rResultTemp [31:16];
+end	
+//-------------------------------------
+\end{verbatim}
+
+
+
+\section{Ejercicio II}
+Se debe agregar el módulo \textit{imul} el cual se muestra a continuación:
+\begin{verbatim}
+
+\end{verbatim}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
