@@ -1,7 +1,7 @@
 
 # PlanAhead Launch Script for Pre-Synthesis Floorplanning, created by Project Navigator
 
-create_project -name Experimento2 -dir "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/planAhead_run_2" -part xc3s500efg320-4
+create_project -name Experimento2 -dir "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/codigo/planAhead_run_3" -part xc3s500efg320-4
 set_param project.pinAheadLayout yes
 set srcset [get_property srcset [current_run -impl]]
 set_property target_constrs_file "MiniAlu.ucf" [current_fileset -constrset]

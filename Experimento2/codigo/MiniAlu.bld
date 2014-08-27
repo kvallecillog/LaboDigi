@@ -6,7 +6,7 @@ ise -dd _ngo -nt timestamp -uc MiniAlu.ucf -p xc3s500e-fg320-4 MiniAlu.ngc
 MiniAlu.ngd
 
 Reading NGO file
-"/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.ngc" ...
+"/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/codigo/MiniAlu.ngc" ...
 Gathering constraint information from source properties...
 Done.
 
@@ -28,7 +28,7 @@ NGDBUILD Design Results Summary:
   Number of errors:     0
   Number of warnings:   0
 
-Total memory usage is 394624 kilobytes
+Total memory usage is 395432 kilobytes
 
 Writing NGD file "MiniAlu.ngd" ...
 Total REAL time to NGDBUILD completion:  3 sec

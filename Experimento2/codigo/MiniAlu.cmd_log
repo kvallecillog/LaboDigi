@@ -13,3 +13,15 @@ bitgen -intstyle ise -f MiniAlu.ut MiniAlu.ncd
 xst -intstyle ise -ifn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.xst" -ofn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.syr" 
 xst -intstyle ise -ifn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.xst" -ofn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.syr" 
 xst -intstyle ise -ifn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.xst" -ofn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.syr" 
+xst -intstyle ise -ifn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/codigo/MiniAlu.xst" -ofn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/codigo/MiniAlu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MiniAlu.ucf -p xc3s500e-fg320-4 MiniAlu.ngc MiniAlu.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o MiniAlu_map.ncd MiniAlu.ngd MiniAlu.pcf 
+par -w -intstyle ise -ol high -t 1 MiniAlu_map.ncd MiniAlu.ncd MiniAlu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MiniAlu.twx MiniAlu.ncd -o MiniAlu.twr MiniAlu.pcf -ucf MiniAlu.ucf 
+bitgen -intstyle ise -f MiniAlu.ut MiniAlu.ncd 
+xst -intstyle ise -ifn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/codigo/MiniAlu.xst" -ofn "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/codigo/MiniAlu.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc MiniAlu.ucf -p xc3s500e-fg320-4 MiniAlu.ngc MiniAlu.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o MiniAlu_map.ncd MiniAlu.ngd MiniAlu.pcf 
+par -w -intstyle ise -ol high -t 1 MiniAlu_map.ncd MiniAlu.ncd MiniAlu.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml MiniAlu.twx MiniAlu.ncd -o MiniAlu.twr MiniAlu.pcf -ucf MiniAlu.ucf 
+bitgen -intstyle ise -f MiniAlu.ut MiniAlu.ncd 

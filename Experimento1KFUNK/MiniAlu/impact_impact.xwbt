@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/kenneth/LaboDigi/Experimento1/MiniAlu/impact.xsl
+OUTFILE=/home/kenneth/LaboDigi/Experimento1/MiniAlu/impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=/home/kenneth/LaboDigi/Experimento1/MiniAlu
+LICENSE=iMPACT
+USER_INFO=iMPACT
