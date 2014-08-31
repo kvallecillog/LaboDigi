@@ -17,7 +17,7 @@ wire [3:0]  wOperation;
 
 
 // Se cambia de reg a 
-// reg wired como lo indica el enunciado.
+// reg signed como lo indica el enunciado.
 reg signed [15:0] rResult;
 
 // Se crea una variable temporal para almacenar el resultado de la

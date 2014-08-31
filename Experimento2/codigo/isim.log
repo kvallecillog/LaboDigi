@@ -1,5 +1,5 @@
 ISim log file
-Running: /home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/TestBench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/TestBench_isim_beh.wdb 
+Running: /home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/TestBench_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/TestBench_isim_beh.wdb 
 ISim P.20131013 (signature 0xfbc00daa)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,8 +11,3 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-ERROR: at 185 ns(10000): Iteration limit 10000 is reached. Possible zero delay oscillation detected where simulation can not advance in time because signals can not resolve to a stable value in File "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.v" Line 176. Please correct this code in order to advance past the current simulation time.
- in File "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.v" Line 176 
-ERROR: 
-INFO: Simulator is stopped.
-# exit 0

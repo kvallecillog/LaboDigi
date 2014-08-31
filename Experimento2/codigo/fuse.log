@@ -1,18 +1,18 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/TestBench_isim_beh.exe -prj /home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/TestBench_beh.prj work.TestBench work.glbl 
+Running: /usr/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o /home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/TestBench_isim_beh.exe -prj /home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/TestBench_beh.prj work.TestBench work.glbl 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Analyzing Verilog file "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/RAM.v" into library work
-Analyzing Verilog file "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/Module_ROM.v" into library work
-Analyzing Verilog file "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/Collaterals.v" into library work
-Analyzing Verilog file "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/MiniAlu.v" into library work
-Analyzing Verilog file "/home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/TestBench.v" into library work
-Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Analyzing Verilog file "/home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/RAM.v" into library work
+Analyzing Verilog file "/home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/Module_ROM.v" into library work
+Analyzing Verilog file "/home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/Collaterals.v" into library work
+Analyzing Verilog file "/home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/MiniAlu.v" into library work
+Analyzing Verilog file "/home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/TestBench.v" into library work
+Analyzing Verilog file "/usr/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
 Completed static elaboration
-Fuse Memory Usage: 95092 KB
-Fuse CPU Usage: 1580 ms
+Fuse Memory Usage: 95084 KB
+Fuse CPU Usage: 1270 ms
 Compiling module ROM
 Compiling module RAM_DUAL_READ_PORT
 Compiling module UPCOUNTER_POSEDGE
@@ -24,7 +24,7 @@ Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 8 Verilog Units
-Built simulation executable /home/kenneth/temp_2014-08-27/LaboDigi/Experimento2/TestBench_isim_beh.exe
-Fuse Memory Usage: 655484 KB
-Fuse CPU Usage: 1620 ms
-GCC CPU Usage: 1030 ms
+Built simulation executable /home/kenneth/Documents/LaboratorioDigital/LaboDigi/Experimento2/codigo/TestBench_isim_beh.exe
+Fuse Memory Usage: 655520 KB
+Fuse CPU Usage: 1310 ms
+GCC CPU Usage: 1070 ms
